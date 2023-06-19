@@ -16,12 +16,21 @@
   }
 }
 
+html,
 body {
-  color: rgb(var(--foreground-rgb));
+  /* background: rgb(142, 145, 150);
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    320deg,
+    rgba(142, 145, 150, 1) 0%,
+    rgba(215, 215, 215, 1) 35%,
+    rgba(244, 244, 244, 1) 100%
+  ); */
+
+  background: rgb(229, 230, 231);
+  background: linear-gradient(
+    320deg,
+    rgba(229, 230, 231, 1) 0%,
+    rgba(242, 243, 243, 1) 35%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
